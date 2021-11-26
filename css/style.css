@@ -126,12 +126,14 @@ body {
 /* Slogan section */
 
 .slogan {
+  padding: 200px 0;
   color: var(--primary-white-color);
   background-color: #2f303a;
   text-align: center;
 }
 
 .slogan-title {
+  margin-bottom: 30px;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -141,6 +143,7 @@ body {
 }
 
 .button {
+  border: none;
   padding: 10px 32px;
   border-radius: 4px;
   min-width: 200px;
@@ -210,6 +213,9 @@ body {
 
 .person > .item {
   width: 270px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .team {
@@ -223,12 +229,14 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.2;
+  text-align: center;
 }
 
 .section-text {
   margin-bottom: 30px;
   font-size: 16px;
   line-height: 1.2;
+  text-align: center;
 }
 
 .portfolio-info {
@@ -252,7 +260,7 @@ body {
 }
 
 .footer-nav {
-  color: var(--primary-white-color);
+  color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
 }
 
@@ -290,6 +298,8 @@ body {
   margin-right: 8px;
 }
 .button-offer {
+  border: none;
+  border-radius: 4px;
   padding: 6px 22px;
   color: var(--accent-color);
   background-color: #f5f4fa;
@@ -320,6 +330,7 @@ body {
 .portfolio-info {
   margin: 20px 24px;
 }
+
 .portfolio-subtitle {
   font-size: 16px;
   line-height: 1.9;
@@ -332,7 +343,7 @@ body {
 }
 
 .portfolio-item {
-  border-bottom: 1px solid #eeeeee;
+  border: 1px solid #eeeeee;
   margin: 15px;
   width: 370px;
 }
